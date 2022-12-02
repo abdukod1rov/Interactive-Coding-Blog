@@ -1,0 +1,44 @@
+{% include "header.html" %}
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url({{ url_for('static', filename='img/about-bg.jpg')}})">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>About Me</h1>
+            <span class="subheading">I write codes.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <p>Hello! My name is Samandar Abdukodirov, 19 y.o. I am currently studying at Cambridge International University in Tashkent as a sophomore.</p>
+        <p>
+I write code mainly in Python and I have been learning to code over a few months. I am interested in psychology and physiology. Learning a new language is also one of my hobbies. Now, I am kind of learning Spanish with the help of Duolingo. It is a great app to master any language.
+</p>
+<p>This is my very first interactive fully functional website.
+The website was coded in Python in accordance with the Flask framework.  For storing data, I used SQLITE3.
+
+</p>
+
+ <ul>
+     Languages:
+   <li>HTML</li>
+   <li>CSS</li>
+   <Li>Python</Li>
+   <li>Flask framework</li>
+ </ul>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  {% include "footer.html" %}
